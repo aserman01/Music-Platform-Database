@@ -19,22 +19,21 @@ pip install PySimpleGUI
 4. Run the **'Project.db'** script to create the SQLite database.
 5. Run the **'Online_Music_Platform.py'** script to start the application.
 
-
 ## Features
 
 - User Authentication: Users can log in with their username and password.
-- User Menu: Provides options for accessing tracks, albums, user profile, activity history, and logging out.
-- Artist Menu: Additional menu options specific to artists, such as track statistics and managing their own tracks.
-- Tracks: Allows users to browse and filter tracks by artist and genre, add tracks to playlists, and play tracks.
-- Albums: Displays a list of albums and their associated tracks.
-- User Profile: Shows user information, followers, following, playlists, and liked playlists. Users can also follow/unfollow other users and explore their profiles.
+- User Menu: Provides options for accessing tracks, albums, user profile, and activity history.
+- Artist Menu: Additional options specific to artists, such as track statistics and managing their own tracks.
+- Browse and Filter Tracks: Users can explore and filter tracks by artist and genre, add them to playlists, and play them.
+- View Albums: Displays a list of albums and their associated tracks.
+- User Profile: Shows user information, followers, following, playlists, and liked playlists. Users can follow/unfollow others and explore their profiles.
 - User History: Displays the user's activity history, including recently played tracks.
-- Statistics: Shows track statistics for the last 30 days, including the number of plays.
-- Create New Playlist: Allows users to create a new playlist with a name and privacy setting (visible or private).
-- Show Content of Playlist: Displays the tracks within a selected playlist.
-- Create New Album: Enables artists to create a new album by selecting existing tracks.
-- Update Track: Allows artists to update track information, such as name, genre, length, and release date.
-- Like Playlist: Enables users to like a playlist.
+- Track Statistics: Artists can view statistics for their tracks, such as play count.
+- Create Playlists: Users can create new playlists with a name and privacy setting.
+- View Playlist Contents: Displays the tracks within a selected playlist.
+- Create Albums: Artists can create new albums by selecting existing tracks.
+- Update Track Information: Artists can update track details like name, genre, length, and release date.
+- Like Playlists: Users can like playlists to show their appreciation.
 
 ## Contributing
 
