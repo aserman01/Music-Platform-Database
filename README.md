@@ -1,46 +1,46 @@
 # Music-Platform-Database
 
-This repository contains code for a Spotify-like application called DataBabe's Spotify. The application allows users to log in, browse tracks and albums, view user profiles and history, and perform various actions such as liking playlists and creating new playlists.
-Prerequisites
+This is a Python-based Spotify-like Online Music Platform application that utilizes a SQLite database to manage user accounts, tracks, albums, playlists, and user activity history. It provides features for both regular users and artists.
 
-    Python 3.x
-    PySimpleGUI
-    SQLite3
+## Prerequisites
 
-Getting Started
+- Python 3.x
+- PySimpleGUI library
+- SQLite3
 
-    Clone the repository to your local machine.
-    Install the required dependencies using the following command:
+## Installation
 
-    pip install PySimpleGUI
+1. Clone the repository to your local machine.
+2. Install the required dependencies using the following command:
+'''
+pip install PySimpleGUI
+'''
+3. Make sure you have SQLite3 installed on your machine. If not, you can download it from the official SQLite website (https://www.sqlite.org/download.html) and follow the installation instructions.
+4. Run the **'Project.db'** script to create the SQLite database.
+5. Run the **'Online_Music_Platform.py'** script to start the application.
 
-    Make sure you have SQLite3 installed on your machine. If not, you can download it from the official SQLite website (https://www.sqlite.org/download.html) and follow the installation instructions.
-    Run the Project.db script to create the SQLite database.
-    Run the main.py script to start the application.
 
-Features
+## Features
 
-    User login: Users can log in to the application using their username and password.
-    Main menu: After logging in, users are presented with a main menu where they can choose different options such as browsing tracks, albums, and user profiles, viewing history, and logging out.
-    Track browsing: Users can browse tracks by filtering them based on artists and genres. They can also add tracks to their playlists.
-    Album browsing: Users can browse albums and view the tracks in each album.
-    User profiles: Users can view their own profile, including their followers, playlists, and liked playlists. They can also follow other users and view their profiles.
-    History: Users can view their listening history, which includes the tracks they have played and the timestamp of each play.
-    Statistics: Artists can view their track statistics for the last 30 days, including the number of plays for each track.
-    Create playlists: Users can create new playlists and add tracks to their playlists.
-    Update track information: Artists can update track information such as track name, genre, length, and release date.
+- User Authentication: Users can log in with their username and password.
+- User Menu: Provides options for accessing tracks, albums, user profile, activity history, and logging out.
+- Artist Menu: Additional menu options specific to artists, such as track statistics and managing their own tracks.
+- Tracks: Allows users to browse and filter tracks by artist and genre, add tracks to playlists, and play tracks.
+- Albums: Displays a list of albums and their associated tracks.
+- User Profile: Shows user information, followers, following, playlists, and liked playlists. Users can also follow/unfollow other users and explore their profiles.
+- User History: Displays the user's activity history, including recently played tracks.
+- Statistics: Shows track statistics for the last 30 days, including the number of plays.
+- Create New Playlist: Allows users to create a new playlist with a name and privacy setting (visible or private).
+- Show Content of Playlist: Displays the tracks within a selected playlist.
+- Create New Album: Enables artists to create a new album by selecting existing tracks.
+- Update Track: Allows artists to update track information, such as name, genre, length, and release date.
+- Like Playlist: Enables users to like a playlist.
 
-Screenshots
+## Contributing
 
-Login
-Main Menu
-Track Browsing
-Album Browsing
-User Profile
-History
-Statistics
-Create Playlist
-Update Track Information
-License
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-This project is licensed under the MIT License. See the LICENSE file for more information.
+## License
+
+This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
+
